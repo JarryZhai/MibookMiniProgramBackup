@@ -1,0 +1,7 @@
+Steps:
+------
+1. Prepare xml file to be parsed
+2. Create model class
+3. Build the handler by extending DefaultParser
+4. SAX parser to read XML file
+5) Test SAX parser

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-boot-jwt"/>
+<aop-project name="thymeleaf-demo"/>
+<aop-project name="spring-boot-hello"/>
+<aop-project name="springmvc-hbm-xml"/>
+<aop-project name="OAuth"/>
+<aop-project name="springdatajpa"/>
+<aop-project name="SpringBootOauthGoogleDemoApplication"/>
+<aop-project name="spring-boot-before-saml"/>
+<aop-project name="demo-eureka-tollrate-service"/>
+<aop-project name="spring-boot-oauth2"/>
+<aop-project name="spring-boot-ldap-demo"/>
+</aop-reference-model>

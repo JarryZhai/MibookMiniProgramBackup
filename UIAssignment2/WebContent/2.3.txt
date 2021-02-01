@@ -1,0 +1,9 @@
+Difference between ES5 and ES6
+
+1, Definition
+2, Data-types
+3, Defining Variables
+4, Performance
+5, Object Manipulation
+6, Arrow Functions
+7, Loops

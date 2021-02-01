@@ -1,0 +1,63 @@
+
+5月 17, 2020 10:20:16.88 NEW SESSION
+5月 17, 2020 10:20:16.88 [9504:5308:0517/102016.879:ERROR:data_pack.cc(120)] Could not open pak file for writing: 请求的操作无法在使用用户映射区域打开的文件上执行。 (0x4C8)
+5月 17, 2020 10:20:16.90 [9504:2300:0517/102016.907:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5月 17, 2020 10:52:51.54 [9504:11860:0517/105251.546:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 11:18:03.61 [9504:3936:0517/111803.617:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 11:23:01.50 [9504:3936:0517/112301.506:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 11:30:39.16 [9504:3936:0517/113039.164:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 11:31:30.57 [9504:3936:0517/113130.571:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 11:57:53.12 [9504:14248:0517/115753.120:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 12:00:40.45 [9504:152:0517/120040.456:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 14:22:45.55 [9504:10984:0517/142245.558:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 14:32:02.26 [9504:13816:0517/143202.259:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 15:49:38.02 [9504:13320:0517/154938.027:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 15:49:47.64 [9504:13320:0517/154947.646:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 15:50:15.24 [9504:13320:0517/155015.239:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 16:18:39.11 [9504:6992:0517/161839.117:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 16:21:15.20 [9504:6992:0517/162115.208:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 16:43:16.17 [9504:952:0517/164316.174:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 16:43:51.58 [9504:952:0517/164351.580:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 17:07:28.53 [9504:11028:0517/170728.535:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 17:08:10.40 [9504:13492:0517/170810.402:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 17:09:47.49 [9504:11028:0517/170947.495:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 17:25:17.97 [9504:11716:0517/172517.974:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 18:30:31.52 [9504:16944:0517/183031.522:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 18:32:45.96 [9504:16944:0517/183245.961:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 18:41:06.51 [9504:3244:0517/184106.516:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 18:41:14.76 [9504:3244:0517/184114.760:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 22:12:54.25 [9504:12944:0517/221254.256:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 22:42:37.55 [9504:12944:0517/224237.554:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 22:49:05.14 [9504:13212:0517/224905.143:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 22:52:21.39 [9504:13728:0517/225221.391:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 22:54:08.12 [9504:13728:0517/225408.128:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 23:27:25.82 [9504:17360:0517/232725.828:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 23:27:36.13 [9504:17360:0517/232736.132:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 17, 2020 23:38:18.34 [9504:8216:0517/233818.342:ERROR:webrtc_event_log_manager_remote.cc(411)] Session ID already set.
+5月 18, 2020 01:22:06.97 [9504:2300:0518/012206.970:ERROR:event_router.cc(707)] Event dispatched while shutting down extensions browser client.
+5月 18, 2020 01:22:06.98 [9504:2300:0518/012206.970:ERROR:event_router.cc(707)] Event dispatched while shutting down extensions browser client.
+
+5月 31, 2020 10:42:13.38 NEW SESSION
+5月 31, 2020 10:42:13.38 [10460:14944:0531/104213.384:ERROR:data_pack.cc(120)] Could not open pak file for writing: 请求的操作无法在使用用户映射区域打开的文件上执行。 (0x4C8)
+
+Nov 29, 2020 19:50:17.95 NEW SESSION
+Nov 29, 2020 19:50:17.95 [1129/195017.956:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 19:50:33.09 [12928:9496:1129/195033.097:ERROR:device_event_log_impl.cc(211)] [19:50:33.096] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 29, 2020 19:50:33.10 [12928:9496:1129/195033.098:ERROR:device_event_log_impl.cc(211)] [19:50:33.098] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 29, 2020 19:50:33.11 [12928:9496:1129/195033.101:ERROR:device_event_log_impl.cc(211)] [19:50:33.101] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 29, 2020 19:50:33.11 [12928:9496:1129/195033.102:ERROR:device_event_log_impl.cc(211)] [19:50:33.102] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+Nov 29, 2020 20:00:17.95 [1129/200017.956:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:00:17.96 [1129/200017.956:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 29, 2020 20:00:17.96 [1129/200017.957:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:00:17.97 [1129/200017.957:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:05:17.95 [1129/200517.957:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:20:17.95 [1129/202017.957:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:35:17.95 [1129/203517.958:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 20:50:17.95 [1129/205017.959:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 21:05:17.95 [1129/210517.959:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 21:20:17.96 [1129/212017.960:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 21:35:17.96 [1129/213517.960:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 21:50:17.96 [1129/215017.960:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 22:05:17.96 [1129/220517.961:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 22:20:17.96 [1129/222017.961:ERROR:crash_report_database_win.cc(455)] unexpected header
+Nov 29, 2020 22:54:24.18 [12928:9496:1129/225424.182:ERROR:device_event_log_impl.cc(211)] [22:54:24.174] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)

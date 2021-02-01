@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>1, splice()</h1>
+<p id="demo1">click show to start</p>
+<button onclick="show()">show</button>
+<button onclick="add()">add</button>
+<button onclick="remove()">remove</button>
+
+<h1>2, slice()</h1>
+<p id="demo2">click to show second element</p>
+<button onclick="second()">show</button>
+
+<h1>3, sub and sup</h1>
+<p>this is<sub>sub</sub>!。</p>
+<p>this is <sup>sup</sup> !。</p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+function show(){
+	var x=document.getElementById("demo1");
+	x.innerHTML=fruits;
+}
+
+function add(){
+	fruits.splice(2,0,"Lemon","Kiwi");
+	var x=document.getElementById("demo1");
+	x.innerHTML=fruits;
+}
+
+function remove(){
+	var fruits = ["Banana", "Orange", "Apple", "Mango"];
+	fruits.splice(2,2);
+	var x=document.getElementById("demo1");
+	x.innerHTML=fruits;
+}
+
+function second(){
+	var second = fruits.slice(1,2);
+	var x=document.getElementById("demo2");
+	x.innerHTML=second;
+}
+
+</script>
+
+
+</body>

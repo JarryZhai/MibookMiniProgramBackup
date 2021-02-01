@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html ng-app="myModule">
+  <head>
+    <title>Document</title>
+    <script src="angular.js"></script>
+    <script src="Script.js"></script>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <div  ng-controller="myController">
+        <table>
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Gender</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="emp in employees">
+                    <td>{{emp.firstName}} {{$index}}    
+                        {{$even}}    {{$odd}}</td>
+                    <td>{{emp.lastName}}</td>
+                    <td>{{emp.gender}}</td>
+                    <td>{{emp.salary}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        {{msg}}
+    </div>
+
+    <div ng-controller="myController1">
+        {{msg}}
+    </div>
+   
+  </body>
+</html> -->
+<!-- ////////////////////////////////////////////////////////
+
+var myApp = angular.module('myModule',[]);
+
+myApp.controller("myController", function($scope){
+
+    var employees = [
+      {firstName:"Ben", lastName:"Smith" , gender:"Male", salary:55000},
+      {firstName:"Mark", lastName:"Adams" , gender:"Male", salary:47000},
+      {firstName:"Lulie", lastName:"Law" , gender:"Male", salary:75000},
+      {firstName:"Mary", lastName:"Paul" , gender:"Male", salary:88000},
+      {firstName:"jack", lastName:"Holland" , gender:"Male", salary:45000}
+    ];
+    $scope.employees = employees
+    $scope.msg = "Hello"
+});
+
+myApp.controller("myController1", function($scope){
+
+    $scope.msg = "Hii"
+}); -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <script src="angular.js"></script>
+    </head>
+    <body ng-app>
+        <input type="text" [(ngModel)]="name"/>
+        {{name}}
+    </body>
+</html>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-ldap-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Jarry
+Implementation-Vendor-Id: com.springboot.ldap
+Build-Jdk: 1.8.0_251
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ ldap-demo/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

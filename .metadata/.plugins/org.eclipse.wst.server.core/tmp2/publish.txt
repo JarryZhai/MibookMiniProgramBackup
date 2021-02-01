@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Nov 29 19:50:13 EST 2020
+org.eclipse.jst.jee.server\:Task4.1=C\:\\APR2020\\apache-tomcat-8.5.54\\wtpwebapps\\Task4.1
+org.eclipse.jst.jee.server\:UI=C\:\\APR2020\\apache-tomcat-8.5.54\\wtpwebapps\\UI

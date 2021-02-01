@@ -1,0 +1,328 @@
+
+                this.speed = speed;
+                document.write(`${this.name} runs with speed ${this.speed}.<br>`);
+            }
+            stop(){
+                this.speed = 0;
+                document.write(`${this.name} stands stll.`);
+            }
+        }
+
+        class Rabbit extends Animal{
+            constructor(name, earLength){
+                super(name);
+                this.earLength = earLength;
+            }
+            hide(){
+                document.write(`${this.name} hides!`);
+            }
+            stop(){
+                super.stop();
+                document.write("Inherited Fn");
+                //this.hide();
+            }
+        }
+
+        let rabbit = new Rabbit("White Rabbit");
+        // rabbit.run(5)
+        // rabbit.hide();
+
+        rabbit.stop();
+        ////////////////////////////////////////////////////////////////////////////////////
+         function Person(firstName, lastName){
+           this.FirstName = firstName  || "unkown";
+           this.LastName = lastName  || "unkown";
+       };
+       Person.prototype.getFullName = function(){
+           return this.FirstName+" "+this.LastName;
+       }
+
+
+       function Student(firstName, lastName, schoolName, grade){
+           Person.call(this, firstName, lastName);
+           
+           this.SchoolName = schoolName || "unkown";
+           this.Grade = grade || 0;
+       }
+
+       Student.prototype = new Person();
+       //Student.prototype = Person.prototype
+       Student.prototype.constructor = Student;
+
+       var student = new Student("Will","Smith", "Horizon",10)
+
+       alert(student.getFullName())
+       alert(student instanceof Student)
+       alert(student instanceof Person)
+       /////////////////////////////////////////////////////////////////////////////////////////////
+       let dragon = {
+            name:"Tanya",
+            fire:true,
+            fight(){
+                return 10;
+            },
+            speak(){
+                if(this.fire)
+                    return `I am ${this.name}, the beather of fire`;
+            }
+        };
+        let otherDragon = {o
+            // fire:true,
+            name:"Harry",
+            fight(){
+                return 5;
+            }
+        };
+
+        // const sp = dragon.speak.bind(otherDragon);
+        // alert(sp())
+
+        otherDragon.__proto__ = dragon
+        // alert(otherDragon.speak())
+        // alert(otherDragon.fire)
+        // alert(otherDragon.fight())
+
+        // alert("Is Parent:"+dragon.isPrototypeOf(otherDragon))
+
+        alert("Is Parent:"+otherDragon.isPrototypeOf(dragon))
+
+        for(let p in otherDragon){
+            if(otherDragon.hasOwnProperty(p))
+                alert(p)
+        }
+        
+        //////////////////////////////////////////////////////////////////////////////////
+        <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const promise = new Promise((resolve, reject) => {
+        const request = new XMLHttpRequest();
+
+        request.open("GET", "http://dummy.restapiexample.com/api/v1/employees");
+
+        request.onload = () => {
+          if (request.status === 200) {
+            resolve(request.response);
+          } else {
+            reject(Error(request.statusText));
+          }
+        };
+
+        request.send();
+      });
+
+      promise.then((data) => {
+        console.log("Got Data, promise fullfilled");
+        document.body.textContent = JSON.parse(data).data[0]["employee_name"];
+      }),
+        (error) => {
+          console.log("Promise rejected");
+          console.log(error.message);
+        };
+    </script>
+  </body>
+</html>
+
+/////////////////////////////////////////////////////////////////////////////////////
+while (data[i+1] != null) {
+                //document.body.textContent = JSON.parse(data).data[i++]["employee_name"];
+                document.write("<br>"+JSON.parse(data).data[i++]["employee_name"])
+            }
+            
+            /////////////////////////////////////////////////////////////////////////
+              var promise = new Promise(function(resolve, rejec){
+          setTimeout(function(){
+              resolve("hello 1");
+              resolve("hello 2");
+              resolve("hello 3")
+          }, 1000)
+      })
+
+      promise.then(function success(data){
+          alert(data);
+      })
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let url = "http://127.0.0.1:5500/bore.jpg";
+        const loadImage = url => {
+            return new Promise(function (resolve, reject) {
+                alert(url);
+                //Open a new XHR
+                var request = new XMLHttpRequest();
+                request.open('GET', url, true);
+                request.responseType    = "arraybuffer";
+                // When the request loads, check whether it was successful
+                request.onload = function () {
+                    if (request.status === 200) {
+                        // If successful, resolve the promise
+                        resolve(request.response);
+                    } else {
+                        // Otherwise, reject the promise
+                        reject(Error('An error occurred while loading image. error code:' + request.statusText));
+                    }
+                };
+
+                request.send();
+            });
+
+        };
+
+        const embedImage = url => {
+            loadImage(url).then(function (result) {
+                const img = new Image();
+
+                var binaryData = [];
+                binaryData.push(result);
+                // href = window.URL.createObjectURL(new Blob(binaryData, {type: type}));
+
+                // var imageURL = window.URL.createObjectURL(result);
+
+                var imageURL = window.URL.createObjectURL(new Blob(binaryData, {type: "Image/jpeg"}));
+
+                img.src = imageURL;
+                // img.srcObject = result;
+                document.querySelector('body').appendChild(img);
+            },
+                function (err) {
+                    console.log(err);
+                });
+        }
+        embedImage(url);
+    </script>
+</body>
+
+</html>
+///////////////////////////////////////////////////////////////////////////////////////////////
+function sum(a,b,...args){
+    let sum=0;
+    console.log(a)
+    console.log(b)
+    for(let arg of args)
+        sum += arg;
+    
+    return sum;
+}
+
+console.log(sum(1,1,2,3))    
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ async function f(){
+         let promise = new Promise((resolve, reject)=>{
+             setTimeout(()=>resolve("done!!!"), 3000)
+         })
+
+         let result = await promise;//
+
+         alert(result);
+     }
+     f();
+     console.log("Deposit Cash")
+//////////////////////////////////////////////////////////////////////////
+es6
+
+closures
+arraow fns
+symbol data type
+
+
+es5
+callbacks
+getters setters
+
+
+what is the use of inheritance, uniform API
+
+Birds
+10 guys
+
+Bird
+fly()
+
+
+1. Parrot
+fly()
+
+
+2. Sparrow
+fly()
+
+
+document.write(`${this.name} runs with speed ${this.speed}.<br>');
+
+
+3. Pigeon
+fly()
+
+
+.
+.
+.
+.
+.
+
+.
+
+pob.fly
+sob.flight
+
+A
+
+B extends A
+
+C extends B
+
+
+C ob = new C();
+
+
+Is class keyword just a syntax sugar for constructor function?YES
+
+
+Animal{
+ public name
+}
+
+Rabbit extends Animal{
+name
+this.name
+}
+
+
+
+Promise(async): Its a promise of a value, not immediately 
+
+resolve(value)
+reject(error)
+
+
+Can you show how to fetch all employee_name with map function?
+
+Async/Await
+
+async always return a promise
+async fun(){
+}
+
+
+
+Sounds like async/await is syntax suger for promise?
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringSecurity/WebContent/WEB-INF/springsecurity.xml&apos; to &apos;spring-security.xml&apos;" description="Rename resource &apos;springsecurity.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/springsecurity.xml" name="spring-security.xml" stamp="1591717598840" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Task2_HTML/WebContent/NewFile.css&apos; to &apos;style.css&apos;" description="Rename resource &apos;NewFile.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/NewFile.css" name="style.css" stamp="1589053510364" updateReferences="true"/>
+</session>

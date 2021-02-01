@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.hibernate.one.to.one.Emp" table="may_129">
+<id name="id" column="eid"></id>
+<property name="name" column="ename"></property>
+
+<map name="hobby" table="mayph_129">
+	<key column="student_id"></key>
+    <map-key column="keycolumn" type="string"></map-key>
+    <element type="string" column="hobby"></element>
+</map>
+</class>
+</hibernate-mapping>
